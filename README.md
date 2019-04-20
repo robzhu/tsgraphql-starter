@@ -1,2 +1,23 @@
 # tsgraphql-starter
-GraphQL + TypeScript Starter kit using TypeGraphQL and Apollo Server
+
+Simple GraphQL server built with TypeScript, TypeGraphQL, and Apollo Server.
+
+## Setup
+
+The dev/test cycle uses nodemon to restart the server when it detects any file changes.
+
+```
+npm i
+npm run watch
+```
+
+## DotEnv
+
+To use a custom port, place a .env file at the root of the project:
+
+```
+#.env
+PORT=6000
+```
+
+This will cause the GraphQL server to start at http://localhost:6000
