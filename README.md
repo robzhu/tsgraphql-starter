@@ -17,7 +17,7 @@ To use a custom port, place a .env file at the root of the project:
 
 ```
 #.env
-PORT=6000
+PORT=5000
 ```
 
-This will cause the GraphQL server to start at http://localhost:6000
+This will cause the GraphQL server to start at http://localhost:5000
